@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Tellma.SMSAutomation.WinService-ced89136-1a96-4ce5-92c2-056b1a5b3292</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tellma.SMSAutomation.SMSEthiopia\Tellma.SmsAutomation.SmsEthiopia.csproj" />
+    <ProjectReference Include="..\Tellma.SMSAutomation\Tellma.SmsAutomation.csproj" />
+    <ProjectReference Include="..\Tellma.Utilities.EmailLogger\Tellma.Utilities.EmailLogger.csproj" />
+  </ItemGroup>
+</Project>

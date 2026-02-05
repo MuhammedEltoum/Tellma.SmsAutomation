@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Tellma.SmsAutomation.Contract/Tellma.SmsAutomation.Contract.csproj" Id="690f2d15-4230-463c-b0b7-8b0e825ec8d5" />
+  <Project Path="Tellma.SMSAutomation.SMSEthiopia.Tests/Tellma.SMSAutomation.SMSEthiopia.Tests.csproj" Id="82a82308-7023-431c-88d9-20af0fbf2e0a" />
+  <Project Path="Tellma.SMSAutomation.SMSEthiopia/Tellma.SMSAutomation.SMSEthiopia.csproj" />
+  <Project Path="Tellma.SMSAutomation.WinService/Tellma.SMSAutomation.WinService.csproj" />
+  <Project Path="Tellma.SMSAutomation/Tellma.SMSAutomation.csproj" />
+  <Project Path="Tellma.Utilities.EmailLogger/Tellma.Utilities.EmailLogger.csproj" />
+</Solution>
