@@ -18,6 +18,10 @@ IHost host = Host.CreateDefaultBuilder(args)
         services.Configure<TellmaOptions>(hostContext.Configuration.GetSection("Tellma"));
         services.Configure<ServiceOptions>(hostContext.Configuration.GetSection("ServiceSettings"));
         services.Configure<EmailOptions>(hostContext.Configuration.GetSection("Email"));
+        services.Configure<List<SmsSchedule>>(hostContext.Configuration.GetSection("SmsSchedules"));
+
+        // Register services
+        services.AddSingleton<SmsScheduler>();
 
         // HttpClient registrations
         services.AddHttpClient<ISmsService, SmsETApiClient>((provider, client) =>

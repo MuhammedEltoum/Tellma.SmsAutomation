@@ -8,7 +8,6 @@ namespace Tellma.SmsAutomation
     {
         public string TenantName { get; set; } = String.Empty;
         public string TenantMobile { get; set; } = String.Empty;
-        public string ContractCode { get; set; } = String.Empty;
         public DateTime ContractExpiryDate { get; set; }
         public string Property { get; set; } = String.Empty;
         public string Unit { get; set; } = String.Empty;
